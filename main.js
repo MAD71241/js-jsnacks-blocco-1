@@ -50,9 +50,9 @@ var askMe;
 //chiedi per 6 volte un numero
 for (i = 0; i < 6; i++) {
     askMe = Number(prompt("Inserisci un numero"));
+    //se è dispari, inseriscilo nell'array
     if (askMe % 2 !== 0) {
         oddNumbers.push(askMe);
     }
 }
 console.log(oddNumbers);
-//se è dispari, inseriscilo nell'array
