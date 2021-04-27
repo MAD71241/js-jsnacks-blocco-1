@@ -28,10 +28,10 @@ for (i = 0; i < 10; i++) {
 console.log(sum); */
 
 //in un array sono contenuti i nomi dei protagonisti del grande Gatsby
-var names = ["Tizio", "Caio", "Sempronio", "Egidio"];
+//var names = ["Tizio", "Caio", "Sempronio", "Egidio"];
 
 //chiedi all'utente il suo nome e comunicagli se può partecipare alla festa.
-var myName = prompt("Ciao! Come ti chiami? Inserisci solo il tuo nome :)");
+/* var myName = prompt("Ciao! Come ti chiami? Inserisci solo il tuo nome :)");
 var i;
 for (i = 0; i < names.length; i++) {
     if (myName === names[i]) {
@@ -41,4 +41,18 @@ for (i = 0; i < names.length; i++) {
     else if (i === names.length) {
         console.log("Spiacente, non sei invitato.");
     }
+} */
+
+//crea un array vuoto
+var oddNumbers = [];
+var sum;
+var askMe;
+//chiedi per 6 volte un numero
+for (i = 0; i < 6; i++) {
+    askMe = Number(prompt("Inserisci un numero"));
+    if (askMe % 2 !== 0) {
+        oddNumbers.push(askMe);
+    }
 }
+console.log(oddNumbers);
+//se è dispari, inseriscilo nell'array
