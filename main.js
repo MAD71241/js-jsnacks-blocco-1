@@ -33,11 +33,12 @@ var names = ["Tizio", "Caio", "Sempronio", "Egidio"];
 //chiedi all'utente il suo nome e comunicagli se può partecipare alla festa.
 var myName = prompt("Ciao! Come ti chiami? Inserisci solo il tuo nome :)");
 var i;
-for (i = 0; i<names.length; i++) {
-    if (myName == names[i]) {
+for (i = 0; i < names.length; i++) {
+    if (myName === names[i]) {
         console.log("Complimenti! Puoi partecipare alla festa.");
+        break
     }
-  else if (i = names.length) {
-    console.log("Spiacente, non sei invitato.");
-}
+    else if (i === names.length) {
+        console.log("Spiacente, non sei invitato.");
+    }
 }
