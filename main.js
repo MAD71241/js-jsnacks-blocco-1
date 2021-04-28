@@ -66,5 +66,6 @@ var cubeNumber;
 var i;
 for (i = 1; i < chosenNumber + 1; i++) {
     cubeNumber = i * i * i;
+    //oppure: cubeNumber = Math.pow(i, 3);
     console.log(cubeNumber);
 }
