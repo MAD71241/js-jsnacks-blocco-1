@@ -43,7 +43,7 @@ for (i = 0; i < names.length; i++) {
     }
 } */
 
-//crea un array vuoto
+/* //crea un array vuoto
 var oddNumbers = [];
 var sum;
 var askMe;
@@ -56,3 +56,15 @@ for (i = 0; i < 6; i++) {
     }
 }
 console.log(oddNumbers);
+ */
+
+//ESERCIZIO 6
+//stampa il cubo dei primi N numeri, dove N è il numero indicato dall'utente.
+
+var chosenNumber = Number(prompt("Ciao, inserisci un numero"));
+var cubeNumber;
+var i;
+for (i = 0; i < chosenNumber; i++) {
+    cubeNumber = i * i * i;
+    console.log(cubeNumber);
+}
