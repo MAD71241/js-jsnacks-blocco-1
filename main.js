@@ -64,7 +64,7 @@ console.log(oddNumbers);
 var chosenNumber = Number(prompt("Ciao, inserisci un numero"));
 var cubeNumber;
 var i;
-for (i = 0; i < chosenNumber; i++) {
+for (i = 1; i < chosenNumber + 1; i++) {
     cubeNumber = i * i * i;
     console.log(cubeNumber);
 }
