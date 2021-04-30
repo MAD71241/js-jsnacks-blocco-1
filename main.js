@@ -61,11 +61,48 @@ console.log(oddNumbers);
 //ESERCIZIO 6
 //stampa il cubo dei primi N numeri, dove N è il numero indicato dall'utente.
 
-var chosenNumber = Number(prompt("Ciao, inserisci un numero"));
+/* var chosenNumber = Number(prompt("Ciao, inserisci un numero"));
 var cubeNumber;
 var i;
 for (i = 1; i < chosenNumber + 1; i++) {
     cubeNumber = i * i * i;
     //oppure: cubeNumber = Math.pow(i, 3);
     console.log(cubeNumber);
+} */
+
+//ESERCIZIO 7
+//stampa le potenze di 2 fino a 1000
+/* 
+for (i = 0; i < 1000; i++) {
+    var overNineThousand = Math.pow(2, i);
+    console.log(overNineThousand);
 }
+
+//ESERCIZIO 8 */
+//Chiedi un numero di 4 cifre all’utente
+/* var askNumber = prompt("Ciao, scegli un numero con 4 cifre.");
+var arrayNumber = askNumber.split("");
+console.log(askNumber);
+var i;
+
+for (i = 0; i < arrayNumber.length; i++ ) {
+    var arrayElement = arrayNumber[i];
+    var sum =+ Number(arrayElement);
+}
+console.log(sum); */
+
+//ESERCIZIO 1 - 30-04-2021
+//crea un array vuoto e chiedi all'utente un numero da inserire nell'array.
+/* var snackArray = [];
+
+var sum = 0; */
+//continua a chiedere numeri all'utente e inserirli nell'array fino a che la somma degli elementi è minore di 50.
+
+/* while (sum <= 50) {
+    var userNumber = Number(prompt("Scegli un numero"));
+    sum = userNumber + sum;
+    snackArray.push(userNumber);
+    console.log(snackArray);
+} */
+
+//ESERCIZIO 2 - 30-04-2021
