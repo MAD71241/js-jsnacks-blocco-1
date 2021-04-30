@@ -106,3 +106,24 @@ var sum = 0; */
 } */
 
 //ESERCIZIO 2 - 30-04-2021
+// fai inserire un numero che chiameremo n all'utente
+var n = Number(prompt("Ciao, inserisci un numero"));
+// genera N array, ognuno formato da 10 numeri casuali tra 1 e 100
+function numberGen(min, max) {
+    min = Math.ceil(min);
+    max = Math.ceil(max);
+    return parseInt(Math.random() * (max - min) + min);
+}
+
+var i;
+
+for (i = 0; i < n; i++) {
+    var generatedArray = [];
+    for (a = 0; a < 10; a++) {
+        var arrayNumberGen = numberGen(1, 100);
+        generatedArray.push(arrayNumberGen);
+    }
+    console.log(generatedArray);
+}
+
+//stampa lo schermo ogni volta che ne crei uno
