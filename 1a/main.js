@@ -24,14 +24,12 @@ var triangoloRett = {
 //calcolare perimetro e area.
 //perimetro
 var squareBase = Math.pow(triangoloRett.base, 2);
-console.log(squareBase);
 var squareHeight = Math.pow(triangoloRett.altezza, 2);
-console.log(squareHeight);
 
 var sum = squareBase + squareHeight;
 var squarePow = Math.sqrt(sum);
 
-var perimetro = squareHeight + squareBase + squarePow;
+var perimetro = triangoloRett.base + triangoloRett.altezza + squarePow;
 console.log(perimetro, "Hi, im the perimeter!");
 
 //area
